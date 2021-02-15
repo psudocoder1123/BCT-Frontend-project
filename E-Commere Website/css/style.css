@@ -1,0 +1,461 @@
+/*  Css for Header (navigation bar) */ 
+@font-face {
+  font-family: proxima-nova;
+  src:url(../fonts/proxima%2520light/Proxima%20Nova%20Alt%20Light.otf)
+}
+
+
+/*  Css for Active classes */ 
+.category-indiv .active p {
+    color: #2390E5;
+}
+
+.brand-indiv .active p{
+     color: #2390E5;
+}
+
+.pg-center .pg-active{
+   background-color: black;
+    color: white;
+   padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+
+.navigation-overlay{
+    margin-bottom: 10px;
+    
+}
+
+.nav-logo img{
+
+    max-width: 35%;
+    max-height: 35%;
+}
+
+
+
+.nav-logo{
+   max-height: 80px;
+    padding-top: 10px;
+}
+
+.nav-col-ind
+{
+    margin-left: 20px;
+}
+
+
+.nav-col-ind a:active, .nav-col-ind a:link, .nav-col-ind a:visited, .nav-col-ind a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-options
+{
+    font-family: 'proxima-nova';
+    margin-top: 25px;
+    line-height: 17px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*  Css for body */ 
+
+/*  Css for Accessories */
+.home-inner{
+     font-family: 'proxima-nova';
+    line-height: 15px;
+    font-size: 14pt;
+    font-weight: 600;
+    height: 40px;
+}
+
+/*  Css for All categories Main contanier-left */
+.main-left
+{
+    background-color:#F1F3F4;
+    padding-bottom: 83px;
+    margin-right: 25px;
+}
+
+.all-categories
+{
+     font-family: 'proxima-nova';
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.all-categories-values
+{
+    margin-top: 12px;
+    font-family: 'proxima-nova';
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+
+ .category-indiv p{
+    text-decoration: none;
+    color: black;
+}
+.category-indiv
+{
+    margin-top: 15px;
+}
+
+
+
+/*  Css for carosel i.e main right */
+.main-right
+{
+    height: 100px;
+}
+
+.Carousel-overlay
+{
+    width: 95%;
+}
+.img-c img{
+    max-width:316px; ;
+    width: 100%;
+    height: 100%;
+    max-height: 340px;
+    
+}
+
+
+
+/*  Css  for price item list left section*/
+
+.prices-itemlist
+{
+    margin-bottom: 70px;
+}
+.price{
+    margin-top: 5px;
+    background-color: #F1F3F4;
+    height: 100%;
+    width: auto;
+    margin-left:  10px;
+    padding-bottom: 20px;
+    
+}
+.main-container1{
+    position: relative;
+    top: -24px;
+}
+
+.price-colour-brand{
+    margin-top: 24px;
+    font-family: 'proxima-nova';
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.brand-values{
+    margin-top: 12px;
+    font-family: 'proxima-nova';
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    
+   
+}
+.brand-num1{
+    margin-left: 108px;
+}
+.brand-num2{
+    margin-left: 110px;
+}
+.brand-num3{
+    margin-left: 85px;
+}
+.brand-num4{
+    margin-left: 98px;
+}
+.brand-num5{
+    margin-left: 62px;
+}
+
+
+
+.brand-indiv p{
+    color: black;
+    text-decoration: none;
+}
+
+.num-margin{
+    margin-left: 70px;
+}
+
+.brand-indiv{
+    margin-top: 15px;
+}
+.place-hold input{
+    max-width: 80px;
+}
+
+.price-colour-brand-inner{
+    max-width:  324px;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  Css for colour section */
+.colour{
+    background-color:#F1F3F4;
+    height: auto;
+    padding-left: 10px;
+    
+}
+.colour-inn
+{
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.single-divi{
+    margin: 3px;
+}
+
+.brand{
+     background-color:#F1F3F4;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/*  Css  for price item list right section*/
+.choices-navbar{
+    font-family: 'proxima-nova';
+    line-height: 18px;
+    font-size: 16px;
+    margin-top: 24px;
+    background-color:#F1F3F4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.navcc{
+    margin-left: 50px;
+    
+}
+.show-in,.sortby-in {
+    width: 94px;
+    background-color: #f1f3f4;
+    border-color: #e5e8ea;
+}
+.filter-item label {
+    font-family: proxima;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.grid {
+    color: #2390E5;
+    font-size: 16px;
+    
+}
+
+.nav {
+    opacity: 0.5;
+    padding-right: 20px;
+}
+.val
+{
+    margin-left: 10px;
+}
+.val a{
+    color:black;
+    text-decoration: none;
+}
+.anc i{
+    margin-left: 10px;
+}
+
+
+
+.item-display{
+    border:3px solid #F1F3F4;
+    
+}
+.two-elements div{
+    
+    margin-right: 25px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-display img{
+    
+    max-width: 162px;
+    width: 100%;
+    height: auto;
+    
+}
+.item-cont{
+    font-family: 'proxima-nova';
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+.Pricelist-overlay
+{
+    margin-top: 15px;
+}
+
+.price-itemlist Right-overlay{
+    margin-bottom: 20px;
+    
+}
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: gainsboro;
+}
+.stars-com{
+     
+    margin-top: 15px;
+   text-align: center;
+}
+.dis-price{
+    font-family: 'proxima-nova';
+    line-height: 18px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+
+
+
+.colour-overlay
+{
+    
+    padding-top: 10px;
+}
+.colour-box
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.blue-outer
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border:1px solid grey; 
+    padding-left: 2px;
+    padding-top: 1px;
+    
+}
+.cau-text{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: white;
+}
+.cau-text1{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 25px;
+    color: white;
+}
+
+.head-text{
+    color: white;
+    padding-bottom: 15px;
+}
+.cor-outer{
+    background-color:blue;
+}
+
+
+
+.item-display a, .item-display a:active, .item-display a:hover, .item-display a:visited, .item-display a:link {
+    text-decoration: none;
+    color: black;
+}
+/*  Css for page number bar */
+ 
+.pg{
+    font-size: 16px;
+    background-color: gainsboro;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.pg-center{
+text-align: center;
+}
+
+.pg-center a, .pg-center a:active, .pg-center a:hover, .pg-center a:link {
+text-decoration: none;
+color: black;
+}
+
+
+.pg-indiv{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
+.pg-selected{
+   background-color: black;
+    color: white;
+   padding-top: 4px;
+}
+
+.footer-part1 img{
+    max-height: 35%;
+    max-width: 35%;
+    height: auto;
+    width: auto;
+    font-family: 'proxima-nova';
+}
+.foot-indiv-heading{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10x;
+    font-family: 'proxima-nova';
+}
+.twitter-img img{
+    padding-left: 10px;
+  
+}
+.footer-font
+{
+    font-family: 'proxima-nova';
+    
+}
+
+.footer-end{
+    color: gray;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
